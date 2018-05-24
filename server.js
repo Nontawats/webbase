@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 app.use(cors())
 
 /// TODO: Develop GET /contacts
-app.get('/contacts',(req,res) =>{
+app.get('/contacts',(req,res) => {
     res.json(contacts)
 })
 
