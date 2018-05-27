@@ -27,7 +27,6 @@ app.post('/contacts', (req,res) => {
     res.status(201).send()
 })
 
-
 app.listen(3000, () => {
     console.log('API Server started at port 3000')
 })
